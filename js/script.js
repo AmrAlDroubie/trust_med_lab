@@ -10,7 +10,11 @@ const testimonials = new Swiper(".testimonials-swiper", {
     delay: 1000,
     disableOnInteraction: false,
   },
-  slidesPerView: 3,
+  breakpoints: {
+    992: {
+      slidesPerView: 3,
+    },
+  },
   rtl: true,
 });
 
